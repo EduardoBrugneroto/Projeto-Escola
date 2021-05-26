@@ -1,0 +1,166 @@
+
+body{
+	font-family: 'Roboto Slab', serif;
+	background: #D3D3D3	;
+	
+}
+
+header {
+	background: url("bg.jpg");
+	padding: 50px;
+	text-align: center;
+}
+
+
+.logo{
+    width: 8%;
+    position: static;
+}
+
+h1{
+
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px ;
+    font-weight: bold;
+    padding: 20px;
+    width-left: 20px; 
+
+}
+
+main {
+	text-align: center;
+	background: #D3D3D3;
+
+}
+
+.introdução{
+	border: solid;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 20px 400px 50px;
+
+}
+
+.introdução:hover {
+	border-color: #696969;
+	transition: 400ms;
+}
+
+.introdução:active {
+	border-color:#363636	;
+	transition: 200ms;
+}
+
+.introdução h2:hover {
+	font-size: 30px;
+	transition: 200ms;
+}
+
+.introdução p:hover{
+	font-size: 20px;
+	transition:200ms;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+
+.imagem {
+	margin-top: 20px;
+	width: 20%;
+	transition: 400ms;
+	padding: 20px;	
+
+}
+
+.imagem:hover{
+  transform: scale(1.1);
+}
+
+
+main h3 {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+main p {
+	font-size: 18px;
+	text-align: center;
+	padding: 20px	
+}
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 100px;
+ }
+
+ .ultima-logo{
+ 	width: 8%;
+ }
+
+ ul{
+ 	color: white;
+ 	font-size: 14px;
+ 	padding: 10px;
+ }
+
+li {
+	padding: 4px;
+}
+
+
+footer p {
+ 	font-size:10px;
+ 	padding: 10px;
+ 	color: #FFFFFF;
+ }
+/* CSS do segundo site */
+.Conteudo {
+	border: solid;
+	padding: 20px;
+	margin: 20px 400px 50px;
+	border-radius: 10px;
+	
+}
+
+.Conteudo:hover {
+	border-color: #696969;
+	transition: 600ms;
+}
+
+.Conteudo:active {
+	border-color:#363636	;
+	transition: 200ms;
+}
+
+.Arte {
+	width: 40%;
+	padding: 30PX;
+	transition: 600ms;
+}
+
+.Arte:hover {
+	opacity: 0.6;
+	transform:scale(1.1);
+
+}
+
+.Volta {
+	text-transform: uppercase;
+  	color: #000000;
+  	font-weight: bold;
+  	font-size: 22px;
+  	text-decoration: none;
+}
+
+
+
+
